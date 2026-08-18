@@ -1,0 +1,5 @@
+[submodule "ha.mr"]
+	path = ha.mr
+	url = https://github.com/p2r3/ha.mr.git
+	shallow = true
+	

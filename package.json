@@ -1,0 +1,40 @@
+{
+    "name": "libhamr",
+    "version": "1.1.0",
+    "description": "",
+    "license": "MIT",
+    "author": "craftxbox",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": {
+                "types": "./dist/compress.d.mts",
+                "default": "./dist/compress.mjs"
+            },
+            "require": {
+                "types": "./dist/compress.d.cts",
+                "default": "./dist/compress.cjs"
+            }
+        }
+    },
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
+        "build": "npx tsdown"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "jest": "^30.4.2",
+        "ts-jest": "^29.4.12",
+        "ts-node": "^10.9.2",
+        "tsdown": "^0.22.14",
+        "tsup": "^8.5.1",
+        "typescript": "^6.0.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/craftxbox/libhamr.git"
+    }
+}
