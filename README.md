@@ -1,5 +1,5 @@
 # libhamr
-*read: hammer*
+*read: hammer*  
 Static URL compressor and QR code optimizer -- Library edition.
 
 ## Usage
