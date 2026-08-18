@@ -1,5 +1,5 @@
-import { compress, decompress } from "./src/compress.ts";
-import { outputAlphabetASCII, outputAlphabetQR, outputAlphabetEmoji } from "./src/alphabets.ts";
+import { compress, decompress } from "libhamr";
+import { outputAlphabetASCII, outputAlphabetQR, outputAlphabetEmoji } from "libhamr/alphabets";
 
 const command = process.argv[2]?.trim() || "encode";
 const input = process.argv[3]?.trim();
