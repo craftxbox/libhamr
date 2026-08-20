@@ -1,6 +1,6 @@
 # libhamr
 *read: hammer*  
-Static URL compressor and QR code optimizer -- Library edition.
+Static URL compressor and QR code optimizer -- Library edition.  
 See [p2r3/ha.mr](https://github.com/p2r3/ha.mr)
 
 ## Usage
